@@ -59,12 +59,13 @@
 %\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
 }
 
-\usepackage{graphicx}
+\usepackage{graphicx, graphics}
 \usepackage{booktabs}
 \usepackage{ulem, cancel}
 \usepackage{multicol}
 \setlength{\columnseprule}{0.4pt}
 \usepackage{tcolorbox}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.gif}
 
 \title[UNIST \LaTeX]{\LaTeX\ Lecture for UNIST}
 
@@ -97,9 +98,14 @@ Ulsan National Institute of Science and Technology
         \item Jaewoong Lee
         \item Senior at UNIST
         \item \LaTeX\ user since 2014
-        \item Graduated Gyeonggi Science High School for the Gifted
+        \item Graduated Gyeonggi Science High School for the Gifted in 2016
         \item Full Member of GSHS TeX User Association
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{What you could with \LaTeX?}
+    
 \end{frame}
 
 \section{What is \LaTeX?}
@@ -146,6 +152,26 @@ Ulsan National Institute of Science and Technology
         \item Cross-referencing: 'As figure 8a' $\Rrightarrow$ You can see 'Big Picture'
         \item Easily attach vector image like SVG \& PDF
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{\LaTeX\ vs. MS word}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.5 \linewidth]{figures/texvsword.jpg}
+        \caption{\LaTeX\ vs. MS word}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{\LaTeX\ vs. MS word \textit{(cont.)}}
+    \begin{itemize}
+        \item \LaTeX\ users were slower than Word users.
+        \item \LaTeX\ users wrote less text in the same amount of time.
+        \item \LaTeX\ users produced more typesetting, orthographical, grammatical, and formatting errors. 
+        \item \LaTeX\ users more often report enjoying using their respective software.
+    \end{itemize}
+    According to Knauff, M., \& Nejasmic, J. (2014). An efficiency comparison of document preparation systems used in academic research and development. PloS one, 9(12), e115069.
 \end{frame}
 
 \section{Hello World Example}
